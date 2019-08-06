@@ -66,6 +66,15 @@
      <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
      <Compile Include="Assets\GoogleVR\Editor\GvrHeadsetEditor.cs" />
      <Compile Include="Assets\GoogleVR\Editor\InstantPreviewEditor.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Editor\CustomPostprocessScript.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Editor\GizmoDrawInspector.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Editor\iVidCapPro\iVidCapPro_PostBuild.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Editor\MergeConfigurationFileInspector.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Editor\MergeCubeSDKInspector.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Editor\MergeSDKUpdateHelper.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Editor\PBXModifier.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Editor\QuickStarter\MergeQuickstartHelper.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Editor\QuickStarter\SettingsInitializerPopup.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -330,6 +339,9 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Hub/Editor/2018.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -345,8 +357,8 @@
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
- <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <Reference Include="MergeCubeCore">
+ <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Assets/MergeCubeSDK/Scripts/Core/MergeCubeCore.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2018.3.12f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

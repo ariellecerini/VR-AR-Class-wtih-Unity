@@ -177,23 +177,78 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <Compile Include="Assets\MergeCubeSDK\_Examples\IntroSequencer\Scripts\InputHandle.cs" />
+     <Compile Include="Assets\MergeCubeSDK\_Examples\IntroSequencer\Scripts\IntroSequenceExampleManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\MergeCubeSDK_UI\GFX\Sprites\LoadingAnimation\MergeEveRotate.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Plugins\iVidCapPro\iVidCapPro.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Plugins\iVidCapPro\iVidCapPro_SampleManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Plugins\iVidCapPro\iVidCapProAudio.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Plugins\iVidCapPro\iVidCapProEdit.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Plugins\iVidCapPro\iVidCapProVideo.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\Callback.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\MergeAndroidBridge.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\MergeConfigurationFile.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\MergeCubeScreenRotateManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\MergeCubeSDK.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\MergeIOSBridge.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\Core\PermissionProcessor.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\CubePopUpManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\IntroSequencer\IntroSequencer.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\IntroSequencer\SplashScreenManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\IntroSequencer\TitleScreenManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\MergeMultiTarget\MergeMultiTarget.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\MergeMultiTarget\MergeMultiTargetGenerator.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\MergeMultiTarget\MergeTrackableEventHandler.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\AnimationToggle.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\DisableOniPad.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\ExpandingMenuManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\HeadsetListButton.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\LensGenerator.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\MatchColor.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\MenuButton.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\MergeReticle.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\NoticePageManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Scripts\UI\TimerUI.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Helpers\DND.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Helpers\GizmoDrawHelper.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Helpers\ToggleSprite.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\GazeInput\Core\GazeCaster.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\GazeInput\Core\GazeResponder.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\GazeInput\Examples\BasicGazeButton.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\GazeInput\Examples\GazeSpriteButton.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\GazeInput\Examples\GazeToggleSprite.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\InputRelativeRotation.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\InputVelocity.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Input\PointerControl.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\MergeSDK\CubeOrientation.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\Recording\Scripts\RecordingManager.cs" />
+     <Compile Include="Assets\MergeCubeSDK\Tools\ScanToBeginHelper\Scripts\TrackOnce.cs" />
      <Compile Include="Assets\Scripts\Moving.cs" />
+     <Compile Include="Assets\Scripts\SwitchLevels.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\MergeCubeSDK\Plugins\iVidCapPro\iVidCapPro_License.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+     <None Include="Assets\MergeCubeSDK\_Doc\SDK Changes.txt" />
+     <None Include="Assets\MergeCubeSDK\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
      <None Include="Assets\GoogleVR\Beta\Shaders\GvrSeeThroughUI.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+     <None Include="Assets\MergeCubeSDK\_Doc\_ChangeToManifest.xml" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
      <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
+     <None Include="Assets\MergeCubeSDK\Plugins\iVidCapPro\GPUImage_License.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
      <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+     <None Include="Assets\MergeCubeSDK\MergeCubeSDK_UI\Shaders\Sprites-OnTop.shader" />
+     <None Include="Assets\MergeCubeSDK\Resources\MergeCube.xml" />
+     <None Include="Assets\MergeCubeSDK\MergeCubeSDK_UI\Shaders\UnlitUVClip.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -410,6 +465,9 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/Applications/Unity/Hub/Editor/2018.3.12f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
@@ -419,8 +477,8 @@
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
- <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <Reference Include="MergeCubeCore">
+ <HintPath>/Users/dmaadmin/Documents/Github/VR-AR-Class-wtih-Unity/VR_Project/Assets/MergeCubeSDK/Scripts/Core/MergeCubeCore.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Hub/Editor/2018.3.12f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
